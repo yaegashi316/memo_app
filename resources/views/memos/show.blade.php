@@ -7,6 +7,7 @@
     <title>memo show</title>
 </head>
 <body>
+    <a href="/memos">戻る</a>
     <h1>{{ $memo->title }}</h1>
     <p>{!! nl2br(e($memo->body)) !!}</p>
 </body>
